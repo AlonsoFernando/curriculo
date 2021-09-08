@@ -1,0 +1,413 @@
+<div class="separators">
+  <mat-divider class="horizontal"></mat-divider>
+</div>
+
+<!--Sobre-->
+<div class="container">
+  <div class="accordion">
+    <mat-accordion>
+      <mat-expansion-panel
+        (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false"
+      >
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <b class="about">SOBRE</b>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="text-about">
+          {{ textAbout }}
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+
+  <!--Informações-->
+  <div class="accordion">
+    <mat-accordion>
+      <mat-expansion-panel
+        class="information-container"
+        (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false"
+      >
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <b class="information">INFORMAÇÕES</b>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p class="text-information">
+          Estado Civil: Casado<br />
+          Idade: 58 anos<br />
+          Local: Araras – São Paulo<br />
+          Celular: (19) 99205-5408
+          <i class="fab fa-whatsapp"></i><br />
+          E-mail: alonso1.fernando1@gmail.com
+        </p>
+
+        <p class="text-information-add">
+          <b>INFORMAÇÕES ADICIONAIS: <br /><br /></b>
+          {{ textInformationAdd }}
+        </p>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+
+  <!--Experiência-->
+  <div class="accordion">
+    <mat-accordion>
+      <mat-expansion-panel
+        class="experience-container"
+        (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false"
+      >
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <b class="experience">EXPERIÊNCIA</b>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div class="companies">
+          {{ hunters }}
+        </div>
+        <div class="function">
+          {{ functionHunters }}
+        </div>
+        <div class="text-experience">
+          {{ experienceHunters }}
+        </div>
+
+        <div class="companies">
+          {{ embracon }}
+        </div>
+        <div class="function">
+          {{ functionEmbracon }}
+        </div>
+        <div class="text-experience">
+          {{ experienceEmbracon }}
+        </div>
+
+        <div class="companies">
+          {{ luxfacta }}
+        </div>
+        <div class="function">
+          {{ functionLuxfacta }}
+        </div>
+        <div class="text-experience">
+          {{ experienceLuxfacta }}
+        </div>
+
+        <div class="companies">
+          {{ dimetal }}
+        </div>
+        <div class="function">
+          {{ functionDimetal }}
+        </div>
+        <div class="text-experience">
+          {{ experienceDimetal }}
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+
+  <!--Educação-->
+  <div class="accordion">
+    <mat-accordion>
+      <mat-expansion-panel
+        class="education-container"
+        (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false"
+      >
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <b class="education">EDUCAÇÃO</b>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p class="text-education">
+          Bacharel em Sistemas de Informação<br />
+          FHO - Fundação Hermínio Ometo UNIARARAS<br />
+          Araras – São Paulo<br />
+          Concluído - 2009/2012
+        </p>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+
+  <!--Conhecimento-->
+  <div class="accordion">
+    <mat-accordion>
+      <mat-expansion-panel
+        class="skills-container"
+        (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false"
+      >
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <b class="skills">SOFTWARE SKILLS</b>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="text-skill">
+          Arquitetura de Sistemas
+          <div class="skill-bar">
+            <div class="skill architecture">55%</div>
+          </div>
+        </div>
+
+        <div class="text-skill">
+          Lógica de Programação
+          <div class="skill-bar">
+            <div class="skill logic">80%</div>
+          </div>
+        </div>
+
+        <div class="text-skill">
+          Estrutura de Dados
+          <div class="skill-bar">
+            <div class="skill data">65%</div>
+          </div>
+        </div>
+
+        <div class="text-skill">
+          Engenharia de Software
+          <div class="skill-bar">
+            <div class="skill engineering">60%</div>
+          </div>
+        </div>
+
+        <div class="text-skill">
+          HTML
+          <div class="skill-bar">
+            <div class="skill html">45%</div>
+          </div>
+        </div>
+
+        <div class="text-skill">
+          CSS
+          <div class="skill-bar">
+            <div class="skill css">45%</div>
+          </div>
+        </div>
+
+        <div class="text-skill">
+          Angular
+          <div class="skill-bar">
+            <div class="skill angular">20%</div>
+          </div>
+        </div>
+
+        <div class="text-skill">
+          Javascript
+          <div class="skill-bar">
+            <div class="skill javascript">15%</div>
+          </div>
+        </div>
+
+        <div class="text-skill">
+          Java
+          <div class="skill-bar">
+            <div class="skill java">20%</div>
+          </div>
+        </div>
+
+        <div class="text-skill">
+          Cobol
+          <div class="skill-bar">
+            <div class="skill cobol">25%</div>
+          </div>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+
+  <!--Certificados-->
+  <div class="accordion">
+    <mat-accordion>
+      <mat-expansion-panel
+        class="certificates-container"
+        (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false"
+      >
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <b class="certificates">CERTIFICADOS</b>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div class="text-certificates">
+          Introdução a JSF para aplicações WEB
+        </div>
+        <div class="image">
+          <img class="img" src="../../assets/image/jsf.jpg" alt="JFS" />
+          <a
+            href="https://certificates.digitalinnovation.one/F28A6D5D"
+            target="_blank"
+          >
+            <div class="view">Visualizar</div>
+          </a>
+        </div>
+
+        <div class="text-certificates">Desenvolvimento Básico em Java</div>
+        <div class="image">
+          <img class="img1" src="../../assets/image/java.jpg" alt="Java" />
+          <a
+            href="https://certificates.digitalinnovation.one/B3DF3BB1"
+            target="_blank"
+          >
+            <div class="view">Visualizar</div>
+          </a>
+        </div>
+
+        <div class="text-certificates">Dominando IDE's Java</div>
+        <div class="image">
+          <img
+            class="img2"
+            src="../../assets/image/IDEsJava.jpg"
+            alt="IDEsJava"
+          />
+          <a
+            href="https://certificates.digitalinnovation.one/BC690FBF"
+            target="_blank"
+          >
+            <div class="view">Visualizar</div>
+          </a>
+        </div>
+
+        <div class="text-certificates">
+          Desenvolvimento Avançado em JavaScript ES6
+        </div>
+        <div class="image">
+          <img
+            class="img3"
+            src="../../assets/image/javascript.jpg"
+            alt="JavaScript"
+          />
+          <a
+            href="https://certificates.digitalinnovation.one/FDF50F91"
+            target="_blank"
+          >
+            <div class="view">Visualizar</div>
+          </a>
+        </div>
+
+        <div class="text-certificates">JavaScript ES6 Essencial</div>
+        <div class="image">
+          <img
+            class="img4"
+            src="../../assets/image/javascriptessencial.jpg"
+            alt="javaScript"
+          />
+          <a
+            href="https://certificates.digitalinnovation.one/93100FEE"
+            target="_blank"
+          >
+            <div class="view">Visualizar</div>
+          </a>
+        </div>
+
+        <div class="text-certificates">Introdução ao Git e GitHub</div>
+        <div class="image">
+          <img class="img5" src="../../assets/image/github.jpg" alt="GitHub" />
+          <a
+            href="https://certificates.digitalinnovation.one/A1D7077E"
+            target="_blank"
+          >
+            <div class="view">Visualizar</div>
+          </a>
+        </div>
+
+        <div class="text-certificates">Introdução ao Angular 8</div>
+        <div class="image">
+          <img
+            class="img6"
+            src="../../assets/image/angular.jpg"
+            alt="Angular"
+          />
+          <a
+            href="https://certificates.digitalinnovation.one/8859430A"
+            target="_blank"
+          >
+            <div class="view">Visualizar</div>
+          </a>
+        </div>
+
+        <div class="text-certificates">
+          Conceitos Avançados de Performance e Otimização Usando Angular
+        </div>
+        <div class="image">
+          <img
+            class="img7"
+            src="../../assets/image/conceitosavancadosAngular.jpg"
+            alt="Angular"
+          />
+          <a
+            href="https://certificates.digitalinnovation.one/E975E455"
+            target="_blank"
+          >
+            <div class="view">Visualizar</div>
+          </a>
+        </div>
+
+        <div class="text-certificates">Desenvolvendo SPA com Angular</div>
+        <div class="image">
+          <img
+            class="img8"
+            src="../../assets/image/spaAngular.jpg"
+            alt="Angular"
+          />
+          <a
+            href="https://certificates.digitalinnovation.one/59FC2991"
+            target="_blank"
+          >
+            <div class="view">Visualizar</div>
+          </a>
+        </div>
+
+        <div class="text-certificates">Aplicações Avançadas com Angular</div>
+        <div class="image">
+          <img
+            class="img9"
+            src="../../assets/image/aplicacoesAngular.jpg"
+            alt="Angular"
+          />
+          <a
+            href="https://certificates.digitalinnovation.one/81CB4DDA"
+            target="_blank"
+          >
+            <div class="view">Visualizar</div>
+          </a>
+        </div>
+
+        <div class="text-certificates">Técnicas Avançadas em Angular 8</div>
+        <div class="image">
+          <img
+            class="img10"
+            src="../../assets/image/tecnicasAngular.jpg"
+            alt="Angular"
+          />
+          <a
+            href="https://certificates.digitalinnovation.one/1F4019CF"
+            target="_blank"
+          >
+            <div class="view">Visualizar</div>
+          </a>
+        </div>
+
+        <div class="text-certificates">
+          A Arquitetura de Componentes e a Gestão da Complexidade no Front-end
+        </div>
+        <div class="image">
+          <img
+            class="img11"
+            src="../../assets/image/arquiteturafrontend.jpg"
+            alt="Angular"
+          />
+          <a
+            href="https://certificates.digitalinnovation.one/40186BC7"
+            target="_blank"
+          >
+            <div class="view">Visualizar</div>
+          </a>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </div>
+</div>

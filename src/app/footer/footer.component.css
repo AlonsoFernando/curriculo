@@ -1,0 +1,10 @@
+.name {
+  font: 1.3em "Gruppo";
+  font-weight: bold;
+  display: flex;
+  border-top: 2px solid rgb(3, 10, 107);
+  margin-top: 30px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  justify-content: center;
+}

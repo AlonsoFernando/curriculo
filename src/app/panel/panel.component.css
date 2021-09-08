@@ -1,0 +1,240 @@
+.separators {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.horizontal {
+  width: 1100px;
+  height: 10px;
+  margin-top: 10px;
+  border-color: black;
+  border-top-width: 4px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-expansion-panel {
+  width: 520px;
+  background-color: #aadba99f;
+  border-style: outset;
+  border-color: rgb(4, 6, 110);
+  margin-left: 138px;
+}
+
+.about {
+  font: 1.6em "Gruppo";
+  font-weight: bold;
+}
+
+.text-about {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  white-space: pre-wrap;
+  padding: 20px 20px 0px 20px;
+}
+
+.information-container {
+  margin-top: -5px;
+  margin-left: 690px;
+}
+
+.information {
+  font: 1.6em "Gruppo";
+  font-weight: bold;
+}
+
+.text-information,
+.text-information-add {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  white-space: pre-wrap;
+  padding: 20px 20px 0px 20px;
+}
+
+.fa-whatsapp {
+  color: rgb(6, 114, 6);
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.experience-container {
+  margin-top: 3px;
+}
+
+.experience {
+  font: 1.6em "Gruppo";
+  font-weight: bold;
+}
+
+.companies {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.function {
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.text-experience {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  white-space: pre-wrap;
+  padding: 10px 20px 15px 0px;
+  border-bottom: 1px solid black;
+}
+
+.education-container {
+  margin-top: -3px;
+  margin-left: 690px;
+}
+
+.education {
+  font: 1.6em "Gruppo";
+  font-weight: bold;
+}
+
+.text-education {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  padding: 20px 20px 0px 20px;
+}
+
+.skills-container {
+  margin-top: 1px;
+}
+
+.skills {
+  font: 1.6em "Gruppo";
+  font-weight: bold;
+}
+
+.text-skill {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-top: 13px;
+  padding: 0px 20px 0px 20px;
+}
+
+.skill-bar {
+  width: 430px;
+  background-color: #817ff5;
+}
+
+.skill {
+  text-align: right;
+  color: white;
+}
+
+.architecture {
+  width: 58%;
+  background-color: #06098f;
+}
+
+.logic {
+  width: 80%;
+  background-color: #06098f;
+}
+
+.data {
+  width: 65%;
+  background-color: #06098f;
+}
+
+.engineering {
+  width: 60%;
+  background-color: #06098f;
+}
+
+.html {
+  width: 45%;
+  background-color: #06098f;
+}
+
+.css {
+  width: 45%;
+  background-color: #06098f;
+}
+
+.angular {
+  width: 20%;
+  background-color: #06098f;
+}
+
+.javascript {
+  width: 15%;
+  background-color: #06098f;
+}
+
+.java {
+  width: 20%;
+  background-color: #06098f;
+}
+
+.cobol {
+  width: 25%;
+  background-color: #06098f;
+}
+
+.certificates-container {
+  margin-top: -3px;
+  margin-left: 690px;
+}
+
+.certificates {
+  font: 1.6em "Gruppo";
+  font-weight: bold;
+}
+
+.text-certificates {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  padding: 20px 20px 0px 0px;
+}
+
+.image {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  justify-content: center;
+}
+.img,
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10,
+.img11 {
+  height: 140px;
+  width: 220px;
+}
+
+.view {
+  margin-top: 110px;
+  margin-left: 30px;
+  font: 1.6em "Gruppo";
+  font-weight: bold;
+  color: #0e0af0;
+  text-decoration: underline;
+}

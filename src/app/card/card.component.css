@@ -1,0 +1,93 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin-top: -130px;
+}
+
+.card-profile {
+  background-color: rgba(1, 4, 48, 0.808);
+  width: 600px;
+  height: 300px;
+  border-radius: 30px;
+  flex-direction: column;
+}
+
+.text-profile {
+  color: rgb(243, 240, 55);
+  font: 1.2em 'Gruppo';
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.photo {
+  width: 240px;
+  clip-path: polygon(17% 0%, 100% 0%, 100% 100%, 0% 100%);
+  margin-left: -220px;
+  border-radius: 0 30px 30px 0px;
+}
+
+.net-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  width: 350px;
+  justify-content: space-between;
+}
+
+.linkedin-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  border-radius: 10%;
+  margin-left: 30px;
+}
+
+.fa-linkedin-in {
+  font-size: 30px;
+  color: rgba(1, 4, 48, 0.808);
+}
+
+.fa-github {
+  margin-left: 30px;
+  color: white;
+  font-size: 45px;
+}
+
+.email-button {
+  margin-left: 30px;
+  border-radius: 20%;
+  height: 45px;
+  width: 45px;
+}
+
+.fa-at {
+  color: rgba(1, 4, 48, 0.808);
+  font-size: 30px;
+}
+
+.cv-button {
+  margin-left: 30px;
+  border-radius: 10px;
+  height: 45px;
+  width: 45px;
+}
+
+.cv {
+  display: block;
+  margin-top: -7px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(1, 4, 48, 0.808);
+}
+
+.fa-download {
+  color: rgba(1, 4, 48, 0.808);
+  font-size: 20px;
+  display: block;
+  margin-top: -12px;
+}
