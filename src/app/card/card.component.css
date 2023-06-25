@@ -6,7 +6,7 @@
 
 .card-profile {
   background-color: rgba(1, 4, 48, 0.808);
-  width: 600px;
+  width: 870px;
   height: 300px;
   border-radius: 30px;
   flex-direction: column;
@@ -17,6 +17,7 @@
   font: 1.2em 'Gruppo';
   margin-left: 30px;
   margin-top: 20px;
+  line-height: 9px;
 }
 
 .photo {
@@ -29,8 +30,8 @@
 .net-container {
   display: flex;
   flex-direction: row;
-  margin-top: 40px;
-  width: 350px;
+  margin-top: 35px;
+  width: 450px;
   justify-content: space-between;
 }
 

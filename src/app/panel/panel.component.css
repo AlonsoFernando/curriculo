@@ -6,8 +6,8 @@
 
 .horizontal {
   width: 1100px;
-  height: 10px;
-  margin-top: 10px;
+  height: 50px;
+  margin-top: 30px;
   border-color: black;
   border-top-width: 4px;
   border-top-left-radius: 10px;
@@ -29,7 +29,7 @@
   background-color: #aadba99f;
   border-style: outset;
   border-color: rgb(4, 6, 110);
-  margin-left: 138px;
+  margin-left: 435px;
 }
 
 .about {
@@ -45,8 +45,7 @@
 }
 
 .information-container {
-  margin-top: -5px;
-  margin-left: 690px;
+  margin-left: 958px;
 }
 
 .information {
@@ -54,7 +53,13 @@
   font-weight: bold;
 }
 
-.text-information,
+.text-information{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px 20px 0px 20px;
+}
+
 .text-information-add {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
@@ -66,10 +71,6 @@
   color: rgb(6, 114, 6);
   font-size: 18px;
   margin-left: 5px;
-}
-
-.experience-container {
-  margin-top: 3px;
 }
 
 .experience {
@@ -99,8 +100,7 @@
 }
 
 .education-container {
-  margin-top: -3px;
-  margin-left: 690px;
+  margin-left: 958px;
 }
 
 .education {
@@ -112,10 +112,6 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
   padding: 20px 20px 0px 20px;
-}
-
-.skills-container {
-  margin-top: 1px;
 }
 
 .skills {
@@ -140,23 +136,38 @@
   color: white;
 }
 
-.architecture {
-  width: 58%;
+.manual {
+  width: 55%;
   background-color: #06098f;
 }
 
-.logic {
-  width: 80%;
+.auto {
+  width: 30%;
   background-color: #06098f;
 }
 
-.data {
-  width: 65%;
-  background-color: #06098f;
-}
-
-.engineering {
+.scrum {
   width: 60%;
+  background-color: #06098f;
+}
+
+.kanban {
+  width: 40%;
+  background-color: #06098f;
+}
+
+.jira {
+  width: 40%;
+  background-color: #06098f;
+}
+
+.git {
+  width: 30%;
+  background-color: #06098f;
+}
+
+.api {
+  width: 20%;
   background-color: #06098f;
 }
 
@@ -176,6 +187,26 @@
 }
 
 .javascript {
+  width: 30%;
+  background-color: #06098f;
+}
+
+.python {
+  width: 35%;
+  background-color: #06098f;
+}
+
+.cypress {
+  width: 30%;
+  background-color: #06098f;
+}
+
+.selenium {
+  width: 20%;
+  background-color: #06098f;
+}
+
+.postman {
   width: 15%;
   background-color: #06098f;
 }
@@ -190,9 +221,33 @@
   background-color: #06098f;
 }
 
+.rabbit {
+  width: 70%;
+  background-color: #06098f;
+}
+
+.docker {
+  width: 10%;
+  background-color: #06098f;
+}
+
+.architecture {
+  width: 58%;
+  background-color: #06098f;
+}
+
+.logic {
+  width: 80%;
+  background-color: #06098f;
+}
+
+.engineering {
+  width: 60%;
+  background-color: #06098f;
+}
+
 .certificates-container {
-  margin-top: -3px;
-  margin-left: 690px;
+  margin-left: 958px;
 }
 
 .certificates {
@@ -225,7 +280,9 @@
 .img8,
 .img9,
 .img10,
-.img11 {
+.img11,
+.img12,
+.img13 {
   height: 140px;
   width: 220px;
 }
