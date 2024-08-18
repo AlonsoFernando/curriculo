@@ -55,13 +55,19 @@ export class PanelComponent implements OnInit {
   fitec: string = 'FITec - Inovações Tecnológicas - 2023';
   functionFitec: string = ' - Especialista em Testes jr';
   experienceFitec: string =
-    'Participação ativa em um projeto da Indústria 4.0 (IoT). \n' +
-    'Colaboração com desenvolvedores para identificar requisitos de testes e garantir a cobertura dos fluxos de trabalho. \n' +
-    'Criação e manutenção de casos e cenários de teste para assegurar a adequada cobertura das funcionalidades. \n' +
-    'Identificação, reporte, re-teste e validação de bugs e problemas através de ferramentas de gestão de defeitos. \n' +
-    'Participação em avaliações de design e fornecimento de feedback e sugestões de melhorias. \n' +
-    'Desenvolvimento de testes automatizados de integração e API com Python e testes de front manuais e com Cypress. \n' +
-    'Participação em cerimônias ágeis para garantir a comunicação efetiva e a colaboração com a equipe de desenvolvimento.';
+    'Gerenciamento de Projetos: Uso extensivo do Jira para acompanhamento de projetos ágeis e colaboração com equipes multifuncionais. \n' +
+    'Participação ativa em cerimônias ágeis, como dailys, plannings, retrospectivas, e reuniões de releases, garantindo \n' +
+    'comunicação eficaz e integração contínua com o desenvolvimento. \n' +
+    'Testes de Software: Criação e manutenção de casos e cenários de teste utilizando a plataforma QASE. \n' +
+    'Experiência em testes manuais e automatizados de sistemas complexos, desde a fase de discovery até a entrega em produção. \n' +
+    'Envolvimento direto na execução de testes em relatórios e de dados no Power BI, integrados ao Data Lake. \n' +
+    'Automação de Testes: Desenvolvimento de testes de API automatizados utilizando Postman (JavaScript) e JMeter para testes de carga e performance. \n' +
+    'Capacidade comprovada na identificação, reporte, documentação e revalidação de bugs e problemas. \n' +
+    'Ferramentas e Design: Experiência com Figma e Excalidraw para leitura de design e feedback em UX e UI. \n' +
+    'Integração e Entrega: Participação em reuniões com clientes, acompanhamento de entregas de versões e releases, além da \n' +
+    'subida para produção, garantindo a qualidade nas entregas finais. \n' +
+    'Colaboração Ágil: Trabalho próximo com equipes de desenvolvimento e liderança, participando de reuniões \n' +
+    'regulares com clientes, assegurando o alinhamento dos objetivos do projeto e as expectativas dos stakeholders.';
 
   cesar: string = 'CESAR - Centro de Estudos e Sistemas Avançados do Recife - 2021/2023';
   functionCesar: string = ' - QA Engineer jr';
