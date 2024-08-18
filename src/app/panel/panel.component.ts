@@ -20,9 +20,9 @@ export class PanelComponent implements OnInit {
     'Analista de Garantia da Qualidade (QA). \n' +
     'Desde então, tenho aplicado minha experiência anterior como Analista de Sistemas e adquirido novos conhecimentos em QA, utilizando ferramentas como ' +
     'Cypress, JavaScript, Python, RabbitMQ, JIRA, Scrum, Kanban e realizando testes manuais e automatizados. \n' +
-    'Além disso, estou atualmente cursando uma Especialização em Testes Ágeis(pós) pela CESAR School do Recife, buscando aprimorar minhas ' +
-    'habilidades e conhecimentos em práticas ágeis de teste, adquirindo conhecimento em Selenium, Postman, BDD e outros. \n' +
-    'Sou um profissional comprometido, com habilidades analíticas e uma mentalidade orientada para a qualidade e eficiência. \n' +
+    'Além disso, finalizei a Especialização em Testes Ágeis(pós) pela CESAR School do Recife, buscando aprimorar minhas ' +
+    'habilidades e conhecimentos em práticas ágeis de teste, adquirindo conhecimento em Selenium, Postman, Jmeter, Appium, BDD e outros. \n' +
+    'Sou um profissional comprometido, com habilidades analíticas e uma mentalidade orientada à qualidade e eficiência. \n' +
     'Tenho facilidade em me adaptar a novos ambientes de trabalho e estou sempre em busca de novos desafios que me permitam expandir ' +
     'meus conhecimentos e contribuir para o crescimento da empresa.';
 
@@ -31,7 +31,7 @@ export class PanelComponent implements OnInit {
     'Conhecimento de rotinas administrativas/comerciais. \n' +
     'Iniciativa e disposição para adquirir novos conhecimentos. \n' +
     'Experiência em princípios, metodologias e terminologia de teste de software, incluindo testes ' +
-    'funcionais, regressão, exploratórios, integração e de automação. \n' +
+    'funcionais, regressão, exploratórios, integração e automação. \n' +
     'Demonstrar atenção aos detalhes e meticulosidade na execução de testes de software, garantindo ' +
     'uma abordagem minuciosa e abrangente. \n' +
     'Forte habilidade no trabalho em equipe, colaborando efetivamente com diferentes stakeholders para ' +
@@ -39,8 +39,8 @@ export class PanelComponent implements OnInit {
     'Conhecimento das ferramentas de gerenciamento de projetos, como Jira, GitLab e Wiki, para rastrear ' +
     'e gerenciar bugs e tarefas, facilitando a comunicação e o acompanhamento eficiente das atividades. \n' +
     'Experiência prática em testes de automação utilizando ferramentas como Cypress, bem como ' +
-    'habilidades em programação Python para desenvolvimento de scripts de teste automatizados de API, além de ' +
-    'familiaridade com Selenium e Postman. \n' +
+    'habilidades em programação Python e Javascript para desenvolvimento de scripts de teste automatizados de API, além de ' +
+    'familiaridade com Selenium, Jmeter e Postman. \n' +
     'Capacidade de criar e executar casos de teste eficazes, abrangendo cenários de teste diversos para ' +
     'garantir uma cobertura completa e precisa. \n' +
     'Familiaridade com Docker para criação e gerenciamento de contêineres, possibilitando a configuração ' +
@@ -51,6 +51,17 @@ export class PanelComponent implements OnInit {
     'entre aplicativos distribuídos e realizar testes de integração. ' +
     'Experiência em testes de integração e API, garantindo a validação adequada da interação entre os ' +
     'diferentes componentes de um sistema.';
+
+  fitec: string = 'FITec - Inovações Tecnológicas - 2023';
+  functionFitec: string = ' - Especialista em Testes jr';
+  experienceFitec: string =
+    'Participação ativa em um projeto da Indústria 4.0 (IoT). \n' +
+    'Colaboração com desenvolvedores para identificar requisitos de testes e garantir a cobertura dos fluxos de trabalho. \n' +
+    'Criação e manutenção de casos e cenários de teste para assegurar a adequada cobertura das funcionalidades. \n' +
+    'Identificação, reporte, re-teste e validação de bugs e problemas através de ferramentas de gestão de defeitos. \n' +
+    'Participação em avaliações de design e fornecimento de feedback e sugestões de melhorias. \n' +
+    'Desenvolvimento de testes automatizados de integração e API com Python e testes de front manuais e com Cypress. \n' +
+    'Participação em cerimônias ágeis para garantir a comunicação efetiva e a colaboração com a equipe de desenvolvimento.';
 
   cesar: string = 'CESAR - Centro de Estudos e Sistemas Avançados do Recife - 2021/2023';
   functionCesar: string = ' - QA Engineer jr';

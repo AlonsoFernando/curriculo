@@ -137,12 +137,12 @@
 }
 
 .manual {
-  width: 55%;
+  width: 70%;
   background-color: #06098f;
 }
 
 .auto {
-  width: 30%;
+  width: 35%;
   background-color: #06098f;
 }
 
@@ -157,7 +157,7 @@
 }
 
 .jira {
-  width: 40%;
+  width: 50%;
   background-color: #06098f;
 }
 
@@ -167,7 +167,7 @@
 }
 
 .api {
-  width: 20%;
+  width: 40%;
   background-color: #06098f;
 }
 
@@ -182,12 +182,12 @@
 }
 
 .angular {
-  width: 20%;
+  width: 25%;
   background-color: #06098f;
 }
 
 .javascript {
-  width: 30%;
+  width: 40%;
   background-color: #06098f;
 }
 
@@ -197,7 +197,7 @@
 }
 
 .cypress {
-  width: 30%;
+  width: 50%;
   background-color: #06098f;
 }
 
@@ -207,12 +207,17 @@
 }
 
 .postman {
-  width: 15%;
+  width: 40%;
+  background-color: #06098f;
+}
+
+.jmeter {
+  width: 25%;
   background-color: #06098f;
 }
 
 .java {
-  width: 20%;
+  width: 30%;
   background-color: #06098f;
 }
 
@@ -232,7 +237,7 @@
 }
 
 .architecture {
-  width: 58%;
+  width: 55%;
   background-color: #06098f;
 }
 
@@ -282,7 +287,8 @@
 .img10,
 .img11,
 .img12,
-.img13 {
+.img13,
+.img14 {
   height: 140px;
   width: 220px;
 }
